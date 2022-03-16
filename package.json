@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr-msumabs",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Compute a moving sum of absolute values incrementally.",
   "license": "Apache-2.0",
   "author": {
