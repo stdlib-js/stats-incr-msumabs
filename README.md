@@ -63,6 +63,11 @@ s = \sum_{i=0}^{W-1} |x_i|
 ## Usage
 
 ```javascript
+import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-msumabs/tags). For example,
+
+```javascript
 import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@v0.2.0-esm/index.mjs';
 ```
 
@@ -133,7 +138,7 @@ sum = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@v0.2.0-esm/index.mjs';
+import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@esm/index.mjs';
 
 var accumulator;
 var v;
