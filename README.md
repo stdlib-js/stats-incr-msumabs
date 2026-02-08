@@ -63,7 +63,7 @@ s = \sum_{i=0}^{W-1} |x_i|
 ## Usage
 
 ```javascript
-import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@deno/mod.js';
+import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@v0.2.3-deno/mod.js';
 ```
 
 #### incrmsumabs( window )
@@ -128,7 +128,7 @@ sum = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@deno/mod.js';
+import incrmsumabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-msumabs@v0.2.3-deno/mod.js';
 
 var accumulator;
 var v;
